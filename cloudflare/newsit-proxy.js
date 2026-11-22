@@ -1,5 +1,5 @@
 const PREFIX = "/newsit";
-const PAGES_ORIGIN = "https://newsit.nobistudio.com";
+const PAGES_ORIGIN = "https://newsite.nobistudio.com";
 
 export default {
   async fetch(request) {
