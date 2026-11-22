@@ -2,6 +2,10 @@
 
 This is a framework-free, responsive portfolio migrated from the publicly accessible Squarespace site at `ukulele-harp-m3w7.squarespace.com`. The Work, About, Archive, Architecture Lecture Series, and Alexander Calder pages are static HTML. Referenced Squarespace CDN images are stored locally under `public/assets/images/`, so the published pages do not depend on Squarespace to load artwork.
 
+## Image copy deterrence
+
+The site disables image dragging and text selection on images, and suppresses the context menu on image areas. These are deterrents only: because this is a public static site, visitors can still retrieve image files from their browser or take screenshots. Preventing access requires keeping original assets behind authentication or a protected service rather than publishing them in the static site.
+
 ## GitHub Pages deployment
 
 The GitHub Actions workflow publishes the `public/` directory whenever a commit is pushed to `main`. Enable **Settings → Pages → Build and deployment → Source: GitHub Actions** in the repository. The production origin is `https://newsite.nobistudio.com/`.
