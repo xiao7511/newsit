@@ -6,6 +6,8 @@ This site is a framework-free, responsive HTML/CSS/JavaScript site. The provided
 
 The GitHub Actions workflow publishes the `public/` directory whenever a commit is pushed to `main`. Enable **Settings → Pages → Build and deployment → Source: GitHub Actions** in the repository. The project site is published at `https://xiao7511.github.io/newsit/`.
 
+If you change or clear the Pages custom domain after a deployment, rerun **Actions → Deploy static site to GitHub Pages → Run workflow** so the published site reflects the current Pages configuration.
+
 For a project site whose URL path should be `/newsit`, create/name the repository `newsit`. Its default Pages URL will then use the repository path, and every site asset and internal link is relative so it works under that path.
 
 ## Custom domain and `/newsit`
